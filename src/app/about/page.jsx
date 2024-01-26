@@ -1,34 +1,35 @@
-import React from "react";
-
-export default function page() {
+export default function About() {
   return (
     <div className="max-w-6xl mx-auto p-3 space-y-4">
       <h1 className="text-2xl font-medium text-amber-600">About</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ipsa
-        blanditiis voluptate, corporis explicabo, assumenda id provident aliquam
-        ut quae tempora necessitatibus quis alias suscipit nam! Nesciunt nam
-        tenetur possimus eligendi explicabo voluptates? Quas, blanditiis fuga
-        labore, id quia at, cum magni velit nostrum accusamus quisquam possimus!
-        Suscipit, quisquam. Dignissimos aliquam dolore quidem optio rem
-        perspiciatis hic nihil, in ut laudantium repudiandae, facere explicabo
-        alias iure saepe id eligendi inventore eveniet? Quas obcaecati aliquam,
-        magnam corporis ipsa doloremque omnis perferendis incidunt dolores
-        corrupti itaque eius beatae tenetur pariatur, sequi quis totam commodi
-        labore perspiciatis aliquid, ipsum vitae.
+        Welcome to our movie database website! We are a team of passionate movie
+        enthusiasts who have come together to create a one-stop destination for
+        all your movie-related needs.
       </p>
+
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ipsa
-        blanditiis voluptate, corporis explicabo, assumenda id provident aliquam
-        ut quae tempora necessitatibus quis alias suscipit nam! Nesciunt nam
-        tenetur possimus eligendi explicabo voluptates? Quas, blanditiis fuga
-        labore, id quia at, cum magni velit nostrum accusamus quisquam possimus!
-        Suscipit, quisquam. Dignissimos aliquam dolore quidem optio rem
-        perspiciatis hic nihil, in ut laudantium repudiandae, facere explicabo
-        alias iure saepe id eligendi inventore eveniet? Quas obcaecati aliquam,
-        magnam corporis ipsa doloremque omnis perferendis incidunt dolores
-        corrupti itaque eius beatae tenetur pariatur, sequi quis totam commodi
-        labore perspiciatis aliquid, ipsum vitae.
+        Our website is designed to provide you with a comprehensive database of
+        movies from all around the world, along with the latest news, reviews,
+        and trailers. Our movie database is constantly updated with new
+        releases, ensuring that you have access to the latest and greatest in
+        the world of cinema. You can search for movies by title, director,
+        actor, genre, or release date, making it easy to find the perfect movie
+        for any occasion.
+      </p>
+
+      <p>
+        In addition to our extensive movie database, we also offer a platform
+        for movie lovers to connect and share their thoughts on the latest
+        releases. Our community section includes a forum where you can discuss
+        your favorite films with like-minded individuals and read reviews and
+        ratings from other users. We also have a section dedicated to movie news
+        and trailers, keeping you updated with the latest happenings in the
+        world of cinema. Thank you for visiting our website and we hope you
+        enjoy your time browsing through our movie database. If you have any
+        feedback or suggestions, please feel free to contact us. We are always
+        looking for ways to improve and enhance the user experience on our
+        website. Happy browsing!
       </p>
     </div>
   );

@@ -1,6 +1,5 @@
-import Link from "next/link";
-import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { FiThumbsUp } from "react-icons/fi";
 
 export default function Card({ result }) {
@@ -9,7 +8,7 @@ export default function Card({ result }) {
       <Link href={`/movie/${result.id}`}>
         <Image
           src={`https://image.tmdb.org/t/p/original/${
-            result.backdrop_path || pathresult.paster_path
+            result.backdrop_path || result.poster_path
           }`}
           width={500}
           height={300}
